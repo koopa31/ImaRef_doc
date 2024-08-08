@@ -1,8 +1,8 @@
 Welcome to Napari Stereotyping's documentation!
 ===================================
 
-**Napari Stereotyping** (/lu'make/) is a Napari plugin dedicated to stereotyping the olfactory system of zebrafish
-embryos imaged in 3D, by creating a reproducible orthonormal reference frame. .
+**Napari Stereotyping** is a Napari plugin dedicated to stereotyping the olfactory system of zebrafish
+embryos imaged in 3D, by creating a reproducible orthonormal reference frame.
 
 Check out the :doc:`usage` section for further information, including
 how to :doc:`installation` the project.

@@ -10,7 +10,7 @@ Steps to Generate a Reference Frame
 1. **Select the Folder Containing Images**
 
    - Open Napari and launch the plugin.
-   - Click on the "Select Folder" button to choose the folder containing your embryo images.
+   - Click on the "Select Folder" button to choose the folder containing your embryo images. Images must be 3D and can be composed of several channels.
 
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/select_folder.gif?raw=true
       :alt: GIF
@@ -33,7 +33,7 @@ Steps to Generate a Reference Frame
      7. The bottom of the embryo (ventral part).
      8. A point on the cone base.
 
-    - Once all eight points are placed, click on the "Calculate Coordinates" button to compute the reference frame.
+   - Once all eight points are placed, click on the "Calculate Coordinates" button to compute the reference frame.
 
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/placer_points.gif?raw=true
       :alt: GIF

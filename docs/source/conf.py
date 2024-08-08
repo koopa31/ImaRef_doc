@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Napari Stereotyping'
-copyright = '2024, CNRS'
+copyright = '2024, Team Batut, CBI, MCD, CNRS'
 author = 'Clément Cazorla'
 
 release = '0.1'

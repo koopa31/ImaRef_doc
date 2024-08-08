@@ -41,7 +41,7 @@ Steps to Generate a Reference Frame
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/placer_points.gif?raw=true
       :alt: GIF
 
-4. **Calculate the Coordinates**
+4. **Calculate the Coordinates of a given point in the new reference frame (optional)**
 
    - You can show the axes, the telencephalon plane and the cone by ticking the corresponding cases. If so, one can click on
      *compute coordinates in the new reference frame*. You will be asked to set a point and its position will be

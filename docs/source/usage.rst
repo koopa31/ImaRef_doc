@@ -48,15 +48,13 @@ Steps to Generate a Reference Frame
      saved and displayed as well as the reference frame. If you decide not to show the result, the next image in the
      folder will be loaded.
 
-   .. image:: _static/calculate_coordinates.png
-      :alt: Calculate Coordinates
+   .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/coords.gif?raw=true
+      :alt: GIF
 
 5. **Save the Results**
 
    - The plugin will save the coordinates and the reference frame data in a CSV file in the same folder as the images.
 
-   .. image:: _static/save_results.png
-      :alt: Save Results
 
 Notes
 -----

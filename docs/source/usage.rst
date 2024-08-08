@@ -20,16 +20,16 @@ Steps to Generate a Reference Frame
 
 2. **Place the Points in the Image**
 
-   - For each image, place eight points in the following order (the instructions to place the points in
-    the plugin interface):
+   - For each image, place eight points in the following order (the instructions to place the points are detailed
+    in the plugin interface):
      1. The summit of the cone.
      2. The first point to define the plane.
      3. The second point to define the plane.
      4. The third point to define the plane.
      5. The fourth point to define the plane.
-     6. The top of the embryo.
-     7. The bottom of the embryo.
-     8. A point on the base.
+     6. The top of the embryo (back part).
+     7. The bottom of the embryo (ventral part).
+     8. A point on the cone base.
 
    .. image:: _static/place_points.png
       :alt: Place Points

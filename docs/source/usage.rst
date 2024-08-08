@@ -17,7 +17,7 @@ Steps to Generate a Reference Frame
 
 2. **Set parameters**
 
-   - Set the microscope resolution (dx, dy, dz).
+   - Set the microscope resolution (dx, dy, dz) in µm.
    - Set the cone height. By default, we chose 75 µm as it is half the telencephalon height.
 
 3. **Place the Points in the Image**

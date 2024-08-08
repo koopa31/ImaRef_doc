@@ -41,9 +41,9 @@ Steps to Generate a Reference Frame
 4. **Calculate the Coordinates of a given point in the new reference frame (optional)**
 
    - You can show the axes, the telencephalon plane and the cone by ticking the corresponding cases. If so, one can click on
-     *compute coordinates in the new reference frame*. You will be asked to set a point and its position will be
-     saved and displayed as well as the reference frame. If you decide not to show the result, the next image in the
-     folder will be loaded.
+     *compute coordinates in the new reference frame*. You will be asked to set a point and its position in the new reference frame will be
+     saved and displayed in the terminal. If you decide not to display the result, the next image in the
+     folder will be loaded and the reference frame parameters saved automatically (see next section).
 
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/coords.gif?raw=true
       :alt: GIF

@@ -8,7 +8,7 @@ a cone containing the orthonormal reference frame, through the manual placement 
 The aim of the project is to rapidly create a reference frame in different embryos to make analyses comparable.
 
 Check out the :doc:`usage` section for further information, including
-how to :doc:`installation` the project.
+how to :doc:`install <installation>` the project.
 
 .. note::
 

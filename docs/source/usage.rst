@@ -37,8 +37,8 @@ Steps to Generate a Reference Frame
 3. **Calculate the Coordinates**
 
    - Once all eight points are placed, click on the "Calculate Coordinates" button to compute the reference frame.
-   - You can show the axes, the telencephalon plane and the cone by ticking the corresponding cases. If so, one can
-    click on *compute coordinates in the new reference frame*. You will be asked to set a point and its position will be
+   - You can show the axes, the telencephalon plane and the cone by ticking the corresponding cases. If so, one can click
+    on *compute coordinates in the new reference frame*. You will be asked to set a point and its position will be
     saved and displayed as well as the reference frame. If you decide not to show the result, the next image in the
     folder will be loaded.
 

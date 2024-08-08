@@ -53,7 +53,7 @@ Steps to Generate a Reference Frame
 
 5. **Save the Results**
 
-   - The plugin will save the coordinates of the point placed in **4.** and the reference frame parameters in a CSV file
+   - The plugin will save the coordinates of the point placed in **4.** (not mandatory) and the reference frame parameters in a CSV file
      named as the corresponding image.
 
 

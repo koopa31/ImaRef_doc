@@ -37,16 +37,17 @@ plugin interface):
      7. The bottom of the embryo (ventral part).
      8. A point on the cone base.
 
-   .. image:: _static/place_points.png
-      :alt: Place Points
+    - Once all eight points are placed, click on the "Calculate Coordinates" button to compute the reference frame.
+
+   .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/placer_points.gif?raw=true
+      :alt: GIF
 
 4. **Calculate the Coordinates**
 
-   - Once all eight points are placed, click on the "Calculate Coordinates" button to compute the reference frame.
-   - You can show the axes, the telencephalon plane and the cone by ticking the corresponding cases. If so, one can click
-    on *compute coordinates in the new reference frame*. You will be asked to set a point and its position will be
-    saved and displayed as well as the reference frame. If you decide not to show the result, the next image in the
-    folder will be loaded.
+   - You can show the axes, the telencephalon plane and the cone by ticking the corresponding cases. If so, one can click on
+*compute coordinates in the new reference frame*. You will be asked to set a point and its position will be
+saved and displayed as well as the reference frame. If you decide not to show the result, the next image in the
+folder will be loaded.
 
    .. image:: _static/calculate_coordinates.png
       :alt: Calculate Coordinates

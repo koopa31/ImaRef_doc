@@ -1,9 +1,6 @@
 Usage
 =====
 
-Usage of the Embryo Stereotyping Plugin
-========================================
-
 This plugin allows you to generate a reference frame in an image of an embryo using a series of user-defined points.
 Below are the steps to use the plugin along with illustrative screenshots.
 

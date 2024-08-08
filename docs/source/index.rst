@@ -11,6 +11,9 @@ how to :doc:`installation` the project.
 
    This project is under active development.
 
+.. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/ecran_accueil.png
+    :width: 100 %
+
 Contents
 --------
 

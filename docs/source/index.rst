@@ -1,13 +1,11 @@
-Welcome to Lumache's documentation!
+Welcome to Napari Sereotyping's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Napari Stereotyping** (/lu'make/) is a Napari plugin dedicated to stereotyping the olfactory system of zebrafish
+embryos imaged in 3D, by creating a reproducible orthonormal reference frame. .
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+how to :doc:`installation` the project.
 
 .. note::
 
@@ -18,5 +16,5 @@ Contents
 
 .. toctree::
 
+   installation
    usage
-   api

@@ -1,4 +1,4 @@
-Welcome to Napari Sereotyping's documentation!
+Welcome to Napari Stereotyping's documentation!
 ===================================
 
 **Napari Stereotyping** (/lu'make/) is a Napari plugin dedicated to stereotyping the olfactory system of zebrafish

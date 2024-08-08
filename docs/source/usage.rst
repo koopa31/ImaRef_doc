@@ -15,8 +15,8 @@ Steps to Generate a Reference Frame
    - Open Napari and launch the plugin.
    - Click on the "Select Folder" button to choose the folder containing your embryo images.
 
-   .. image:: _static/select_folder.png
-      :alt: Select Folder
+   .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/select_folder.gif?raw=true
+      :alt: GIF
 
 2. **Place the Points in the Image**
 

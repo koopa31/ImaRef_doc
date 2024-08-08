@@ -25,8 +25,7 @@ Steps to Generate a Reference Frame
 
 3. **Place the Points in the Image**
 
-   - For each image, place eight points in the following order (the instructions to place the points are detailed in the
-plugin interface):
+   - For each image, place eight points in the following order (the instructions to place the points are detailed in the plugin interface):
 
      1. The summit of the cone.
      2. The first point to define the telencephalon plane.
@@ -45,9 +44,9 @@ plugin interface):
 4. **Calculate the Coordinates**
 
    - You can show the axes, the telencephalon plane and the cone by ticking the corresponding cases. If so, one can click on
-*compute coordinates in the new reference frame*. You will be asked to set a point and its position will be
-saved and displayed as well as the reference frame. If you decide not to show the result, the next image in the
-folder will be loaded.
+     *compute coordinates in the new reference frame*. You will be asked to set a point and its position will be
+     saved and displayed as well as the reference frame. If you decide not to show the result, the next image in the
+     folder will be loaded.
 
    .. image:: _static/calculate_coordinates.png
       :alt: Calculate Coordinates

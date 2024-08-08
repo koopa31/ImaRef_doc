@@ -5,7 +5,8 @@ Welcome to Napari Stereotyping's documentation!
 embryos imaged in 3D, by creating a reproducible orthonormal reference frame. The method is based on the generation of
 a cone containing the orthonormal reference frame, through the manual placement of well-defined points into the embryo.
 
-The aim of the project is to rapidly create a reference frame in different embryos to make analyses comparable.
+The aim of the project is to rapidly create a reference frame in different embryos to get rid of the orientation
+differences during acquisition and make analyses comparable.
 
 Check out the :doc:`usage` section for further information, including
 how to :doc:`install <installation>` the project.

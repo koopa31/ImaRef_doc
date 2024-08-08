@@ -12,7 +12,7 @@ how to :doc:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   This project is under active development and by funded by Julie Batut's team at the Centre for Integrative biology in Toulouse.
 
 .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/ecran_accueil.png
     :width: 100 %

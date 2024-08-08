@@ -33,10 +33,10 @@ Steps to Generate a Reference Frame
      7. The bottom of the embryo (ventral part).
      8. A point on the cone base.
 
-   - Once all eight points are placed, click on the "Calculate Coordinates" button to compute the reference frame.
-
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/placer_points.gif?raw=true
       :alt: GIF
+
+   Once all eight points are placed, click on the "Calculate Coordinates" button to compute the reference frame.
 
 4. **Calculate the Coordinates of a given point in the new reference frame (optional)**
 

@@ -24,14 +24,14 @@ Steps to Generate a Reference Frame
 
    - For each image, place eight points in the following order (the instructions to place the points are detailed in the plugin interface):
 
-     1. The summit of the cone.
-     2. The first point to define the telencephalon plane.
-     3. The second point to define the telencephalon plane.
-     4. The third point to define the telencephalon plane.
-     5. The fourth point to define the telencephalon plane.
-     6. The top of the embryo (back part).
-     7. The bottom of the embryo (ventral part).
-     8. A point on the cone base.
+         1. The summit of the cone.
+         2. The first point to define the telencephalon plane.
+         3. The second point to define the telencephalon plane.
+         4. The third point to define the telencephalon plane.
+         5. The fourth point to define the telencephalon plane.
+         6. The top of the embryo (back part).
+         7. The bottom of the embryo (ventral part).
+         8. A point on the cone base.
 
    - Once all eight points are placed, click on the "Calculate Coordinates" button to compute the reference frame.
 

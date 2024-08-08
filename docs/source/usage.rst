@@ -18,10 +18,16 @@ Steps to Generate a Reference Frame
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/select_folder.gif?raw=true
       :alt: GIF
 
-2. **Place the Points in the Image**
+2. **Set parameters**
 
-   - For each image, place eight points in the following order (the instructions to place the points are detailed
-    in the plugin interface):
+   - Set the microscope resolution (dx, dy, dz).
+   - Set the cone height. By default, we chose 75 µm as it is half the telencephalon height.
+
+3. **Place the Points in the Image**
+
+   - For each image, place eight points in the following order (the instructions to place the points are detailed in the
+plugin interface):
+
      1. The summit of the cone.
      2. The first point to define the telencephalon plane.
      3. The second point to define the telencephalon plane.
@@ -34,7 +40,7 @@ Steps to Generate a Reference Frame
    .. image:: _static/place_points.png
       :alt: Place Points
 
-3. **Calculate the Coordinates**
+4. **Calculate the Coordinates**
 
    - Once all eight points are placed, click on the "Calculate Coordinates" button to compute the reference frame.
    - You can show the axes, the telencephalon plane and the cone by ticking the corresponding cases. If so, one can click
@@ -45,7 +51,7 @@ Steps to Generate a Reference Frame
    .. image:: _static/calculate_coordinates.png
       :alt: Calculate Coordinates
 
-4. **Save the Results**
+5. **Save the Results**
 
    - The plugin will save the coordinates and the reference frame data in a CSV file in the same folder as the images.
 

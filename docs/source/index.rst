@@ -6,7 +6,7 @@ embryos imaged in 3D, by creating a reproducible orthonormal reference frame. Th
 a cone containing the orthonormal reference frame, through the manual placement of well-defined points into the embryo.
 
 The aim of the project is to rapidly create a reference frame in different embryos to get rid of the orientation
-differences during acquisition and make analyses comparable.
+differences during acquisition and make analyses (tracking, counting, orientation characterization) comparable.
 
 Check out the :doc:`usage` section for further information, including
 how to :doc:`install <installation>` the project.

@@ -23,10 +23,10 @@ Steps to Generate a Reference Frame
    - For each image, place eight points in the following order (the instructions to place the points are detailed
     in the plugin interface):
      1. The summit of the cone.
-     2. The first point to define the plane.
-     3. The second point to define the plane.
-     4. The third point to define the plane.
-     5. The fourth point to define the plane.
+     2. The first point to define the telencephalon plane.
+     3. The second point to define the telencephalon plane.
+     4. The third point to define the telencephalon plane.
+     5. The fourth point to define the telencephalon plane.
      6. The top of the embryo (back part).
      7. The bottom of the embryo (ventral part).
      8. A point on the cone base.
@@ -37,19 +37,15 @@ Steps to Generate a Reference Frame
 3. **Calculate the Coordinates**
 
    - Once all eight points are placed, click on the "Calculate Coordinates" button to compute the reference frame.
+   - You can show the axes, the telencephalon plane and the cone by ticking the corresponding cases. If so, one can
+    click on *compute coordinates in the new reference frame*. You will be asked to set a point and its position will be
+    saved and displayed as well as the reference frame. If you decide not to show the result, the next image in the
+    folder will be loaded.
 
    .. image:: _static/calculate_coordinates.png
       :alt: Calculate Coordinates
 
-4. **View and Adjust the Reference Frame**
-
-   - The plugin will display the calculated reference frame, including the origin and the unit vectors.
-   - If necessary, you can adjust the reference frame by repositioning the points and recalculating the coordinates.
-
-   .. image:: _static/view_reference_frame.png
-      :alt: View Reference Frame
-
-5. **Save the Results**
+4. **Save the Results**
 
    - The plugin will save the coordinates and the reference frame data in a CSV file in the same folder as the images.
 

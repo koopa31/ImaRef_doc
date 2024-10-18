@@ -15,12 +15,12 @@ Steps to Generate a Reference Frame
 2. **Image Selection**
 
    - Set the image selection parameters to filter and load the correct images:
-     - **Sample identifier**: Used to filter images that belong to the same sample (default: `_s`).
-     - **Number of colors**: Define the number of colors used in your images (default: `2`).
-     - **Identifiers for the color channels**:
-       - **Blue channel**: Define the identifier for blue channel images (default: `CSU-405 Em 440-460`).
-       - **Green channel**: Define the identifier for green channel images (default: `CSU-488 Em 510-540`).
-       - **Red channel**: Define the identifier for red channel images (default: `CSU-561 Em 593LP`).
+       - **Sample identifier**: Used to filter images that belong to the same sample (default: `_s`).
+       - **Number of colors**: Define the number of colors used in your images (default: `2`).
+       - **Identifiers for the color channels**:
+          - **Blue channel**: Define the identifier for blue channel images (default: `CSU-405 Em 440-460`).
+          - **Green channel**: Define the identifier for green channel images (default: `CSU-488 Em 510-540`).
+          - **Red channel**: Define the identifier for red channel images (default: `CSU-561 Em 593LP`).
 
 3. **Select the Folder Containing Images**
 

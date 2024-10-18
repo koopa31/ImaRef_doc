@@ -14,7 +14,7 @@ Steps to Generate a Reference Frame
 
 2. **Image Selection**
 
-   - Set the image selection parameters to filter and load the correct images:
+   - Set the image selection parameters to filter and load the correct images. We assume each channel has been saved in a separate tiff file:
        - **Sample identifier**: Used to filter images that belong to the same sample (default: `_s`).
        - **Number of colors**: Define the number of colors used in your images (default: `2`).
        - **Identifiers for the color channels**:

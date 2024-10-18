@@ -10,7 +10,7 @@ Steps to Generate a Reference Frame
 1. **Set resolution and cone height**
 
    - Set the microscope resolution (dx, dy, dz) in µm.
-   - Set the cone height. By default, we chose 75 µm as it is half the telencephalon height.
+   - Set the cone height. By default, we chose 75 µm as it is half the telencephalon height for a zebrafish.
 
 2. **Image Selection**
 

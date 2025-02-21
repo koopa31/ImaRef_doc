@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 500 500">
+  <!-- Définitions de styles et dégradés -->
+  <defs>
+    <!-- Dégradé moderne pour l'ellipsoïde -->
+    <linearGradient id="modernEllipsoidGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    
+    <!-- Dégradé pour le texte -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    
+    <!-- Effet de lueur pour l'ellipsoïde -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Points lumineux -->
+    <radialGradient id="pointGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#EF4444" stop-opacity="1" />
+      <stop offset="100%" stop-color="#EF4444" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Fond subtil -->
+  <rect x="-250" y="-250" width="500" height="500" fill="#F8FAFC" rx="30" ry="30" />
+  
+  <!-- Grille subtile (effet moderne) -->
+  <g stroke="#E2E8F0" stroke-width="0.5">
+    <line x1="-200" y1="-100" x2="200" y2="-100" />
+    <line x1="-200" y1="0" x2="200" y2="0" />
+    <line x1="-200" y1="100" x2="200" y2="100" />
+    <line x1="-100" y1="-200" x2="-100" y2="200" />
+    <line x1="0" y1="-200" x2="0" y2="200" />
+    <line x1="100" y1="-200" x2="100" y2="200" />
+  </g>
+  
+  <!-- Points 3D avec effet de lueur -->
+  <g>
+    <circle cx="80" cy="30" r="8" fill="url(#pointGlow)" opacity="0.7" />
+    <circle cx="-90" cy="50" r="8" fill="url(#pointGlow)" opacity="0.7" />
+    <circle cx="60" cy="-70" r="8" fill="url(#pointGlow)" opacity="0.7" />
+    <circle cx="-40" cy="-90" r="8" fill="url(#pointGlow)" opacity="0.7" />
+    <circle cx="120" cy="10" r="8" fill="url(#pointGlow)" opacity="0.7" />
+    <circle cx="-100" cy="-20" r="8" fill="url(#pointGlow)" opacity="0.7" />
+    <circle cx="10" cy="100" r="8" fill="url(#pointGlow)" opacity="0.7" />
+    <circle cx="-30" cy="-50" r="8" fill="url(#pointGlow)" opacity="0.7" />
+    
+    <!-- Points centraux nets -->
+    <circle cx="80" cy="30" r="3" fill="#EF4444" />
+    <circle cx="-90" cy="50" r="3" fill="#EF4444" />
+    <circle cx="60" cy="-70" r="3" fill="#EF4444" />
+    <circle cx="-40" cy="-90" r="3" fill="#EF4444" />
+    <circle cx="120" cy="10" r="3" fill="#EF4444" />
+    <circle cx="-100" cy="-20" r="3" fill="#EF4444" />
+    <circle cx="10" cy="100" r="3" fill="#EF4444" />
+    <circle cx="-30" cy="-50" r="3" fill="#EF4444" />
+  </g>
+  
+  <!-- Ellipsoïde avec effet moderne -->
+  <ellipse cx="0" cy="0" rx="150" ry="100" fill="url(#modernEllipsoidGradient)" fill-opacity="0.2" 
+           stroke="url(#modernEllipsoidGradient)" stroke-width="2" filter="url(#glow)" />
+  
+  <!-- Repère orthonormé avec design moderne -->
+  <!-- Axe X -->
+  <line x1="0" y1="0" x2="78" y2="0" stroke="#EF4444" stroke-width="3" stroke-linecap="round" />
+  <polygon points="84,0 70,-6 70,6" fill="#EF4444" />
+  
+  <!-- Axe Y -->
+  <line x1="0" y1="0" x2="0" y2="-78" stroke="#10B981" stroke-width="3" stroke-linecap="round" />
+  <polygon points="0,-84 -6,-70 6,-70" fill="#10B981" />
+  
+  <!-- Axe Z -->
+  <line x1="0" y1="0" x2="37" y2="37" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" />
+  <polygon points="40,40 30,37 37,30" fill="#3B82F6" />
+  
+  <!-- Texte moderne -->
+  <g transform="translate(0, 180)">
+    <rect x="-200" y="-10" width="400" height="60" rx="10" ry="10" fill="white" filter="url(#glow)" opacity="0.9" />
+    <text x="0" y="15" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" text-anchor="middle" fill="url(#titleGradient)">NAPARI STEREOTYPING</text>
+    <text x="0" y="40" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" letter-spacing="1.5" text-anchor="middle" fill="#64748B">STANDARDIZED EMBRYO REFERENCE</text>
+  </g>
+</svg>

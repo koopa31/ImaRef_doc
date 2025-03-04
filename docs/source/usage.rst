@@ -53,6 +53,15 @@ Steps to Generate a Reference Frame
      named as the corresponding image, in the folder containing the images.
 
 
+Using the reference frame to compute new points coordinates
+-----------------------------------------------------------
+
+A `Jupyter Notebook <https://github.com/koopa31/napari_stereotypage/blob/main/Transform_coordinates.ipynb>`_ is available in the Github repository. It teaches how to:
+
+1. Transform manually provided points into a new reference frame.
+2. Transform cell centroids extracted from a segmentation mask into the new reference frame.
+
+
 Notes
 -----
 

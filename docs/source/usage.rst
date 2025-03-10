@@ -61,6 +61,7 @@ A `Jupyter Notebook <https://github.com/koopa31/napari_stereotypage/blob/main/Tr
 1. Transform manually provided points into a new reference frame.
 2. Transform cell centroids extracted from a segmentation mask into the new reference frame.
 3. Transform cell tracking coordinates from three different tracking software:
+
     - `TrackMate <https://imagej.net/plugins/trackmate/>`_.
     - `Mastodon <https://imagej.net/plugins/mastodon>`_/`Elephant <https://elephant-track.github.io/#/>`_
     - `Ultrack <https://github.com/royerlab/ultrack>`_

@@ -55,19 +55,25 @@ Steps to Generate a Reference Frame
      named as the corresponding image, in the folder containing the images.
 
 
-Using the reference frame in different scenarios
+Using my new reference frame in different scenarios
 ------------------------------------------------
 
-A `Jupyter Notebook <https://github.com/koopa31/napari_stereotypage/blob/main/Transform_coordinates.ipynb>`_ is available in the Github repository. It teaches how to:
+The plugin is divided into two widgets: the first one is used to set reference frames by fitting an ellipsoid, as explained in the previous sections,
+and the second one allows you to utilize this newly computed frame in various scenarios you may encounter.
 
-1. Transform manually provided points into a new reference frame.
-2. Transform cell centroids extracted from a segmentation mask into the new reference frame.
+With this second widget you can manage those three cases:
+
+1. Transform manually provided points into a new reference frame. You get a folder containing images,
+    their reference frame coordinates in csv files and csv files named as imagename_points.csv containing points coordinates you want to transform in the new reference frame.
+2. Transform cell centroids extracted from a segmentation mask into the new reference frame. You get a folder containing images, their segmentation masks and csv files containing their reference framer coordinates.
+    You can compute the cell centroids coordinates in the new reference frame for each segmented image in the folder.
 3. Transform cell tracking coordinates from three different tracking software:
 
     - `TrackMate <https://imagej.net/plugins/trackmate/>`_.
     - `Mastodon <https://imagej.net/plugins/mastodon>`_/`Elephant <https://elephant-track.github.io/#/>`_
     - `Ultrack <https://github.com/royerlab/ultrack>`_
 
+A `Jupyter Notebook <https://github.com/koopa31/napari_stereotypage/blob/main/Transform_coordinates.ipynb>`_ is available in the Github repository.
 
 Notes
 -----

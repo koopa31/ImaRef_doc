@@ -67,7 +67,8 @@ With this second widget you can manage those three cases:
     their reference frame coordinates in csv files and csv files named as imagename_points.csv containing points coordinates you want to transform in the new reference frame.
 2. Transform cell centroids extracted from a segmentation mask into the new reference frame. You get a folder containing images, their segmentation masks and csv files containing their reference framer coordinates.
     You can compute the cell centroids coordinates in the new reference frame for each segmented image in the folder.
-3. Transform cell tracking coordinates from three different tracking software:
+3. Transform cell tracking coordinates. You get a folder containing all time points of a 3D+t series.
+    You computed the reference frame at t0 and want to compute the tracking result coordinates in teh new reference frame. It is compatible from three different tracking software:
 
     - `TrackMate <https://imagej.net/plugins/trackmate/>`_.
     - `Mastodon <https://imagej.net/plugins/mastodon>`_/`Elephant <https://elephant-track.github.io/#/>`_

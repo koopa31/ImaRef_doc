@@ -59,7 +59,7 @@ Using my new reference frame in different scenarios
 ------------------------------------------------
 
 The plugin is divided into two widgets: the first one is used to set reference frames by fitting an ellipsoid, as explained in the previous sections,
-and the second one allows you to utilize this newly computed frame in various scenarios you may encounter.
+and the second one allows you to utilize those newly computed frames in various scenarios you may encounter.
 
 With this second widget you can manage those three cases:
 

@@ -39,9 +39,11 @@ Steps to Generate a Reference Frame
    Once all points are placed, click on the "Calculate Coordinates" button to compute the reference frame. To proceed to Step 4, you must display the orthonormal frame and/or the ellipsoid before clicking "Calculate Coordinates" by selecting "Show computed orthonormal axes" and "Show the computed ellipsoid."
 
 
-4. **Calculate the Coordinates of a given point in the new reference frame (optional)**
+4. **How can I use my newly computed frame? (optional)**
 
-   - Once the frame and/or the ellipsoid are displayed, you can click "Compute coordinates in the new reference frame." You will then be prompted to place as many points as desired, and their positions in the new reference frame will be saved and displayed in the terminal. If you choose not to display the ellipsoid or the frame, the next image in the folder will be loaded automatically, and the reference frame parameters will be saved (see the next section).  
+   - Once the frame and/or the ellipsoid are displayed, you can select points in the image where you want to compute coordinates in the new frame by clicking "Compute coordinates in the new reference frame".
+    Once clicked, the viewer will go back to 2D view and you will then be prompted to place as many points as desired. Their positions in the new reference frame will be saved in the CSV already containing the frame coordinates
+    and displayed in the terminal. If you choose not to display the ellipsoid or the frame, the next image in the folder will be loaded automatically, and the reference frame parameters will be saved (see the next section).
 
 
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/coords.gif?raw=true
@@ -53,8 +55,8 @@ Steps to Generate a Reference Frame
      named as the corresponding image, in the folder containing the images.
 
 
-Using the reference frame to compute new points coordinates
------------------------------------------------------------
+Using the reference frame in different scenarios
+------------------------------------------------
 
 A `Jupyter Notebook <https://github.com/koopa31/napari_stereotypage/blob/main/Transform_coordinates.ipynb>`_ is available in the Github repository. It teaches how to:
 

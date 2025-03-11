@@ -71,7 +71,7 @@ With this second widget you can manage those three cases:
     - `Mastodon <https://imagej.net/plugins/mastodon>`_/`Elephant <https://elephant-track.github.io/#/>`_
     - `Ultrack <https://github.com/royerlab/ultrack>`_
 
-A `Jupyter Notebook <https://github.com/koopa31/napari_stereotypage/blob/main/Transform_coordinates.ipynb>`_ is available in the Github repository.
+For people who would like to code or adapt those codes for  their own application, a tutorial `Jupyter Notebook <https://github.com/koopa31/napari_stereotypage/blob/main/Transform_coordinates.ipynb>`_ computing the exact same things as the second widget is available in the Github repository.
 
 Notes
 -----

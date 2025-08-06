@@ -50,18 +50,22 @@ Steps to Generate a Reference Frame
      2. Manually place a few points (e.g., 2 or 3) along the anteroposterior axis in the dorsal region of the embryo
      3. Click "Calculate coordinates" to recompute the frame. The Z-vector should now be properly aligned.
 
+    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/refs/heads/main/docs/images/correct_z.gif?raw=true
+       :alt: GIF
 
 5. **Correction of x orientation**
 
     - Some microscopes acquire 3D stacks in reverse z-order, which can mirror the sample along the left-right axis — for example, the left placode may appear on the right.
       This affects the computed X-axis vector and can lead to inconsistent anatomical orientations between datasets. To correct this, check the "Invert X-vector direction" box after computing the coordinate system if you observe a left-right inversion. This applies the transformation x → –x, ensuring consistent anatomical orientation across microscopes.
 
+    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/refs/heads/main/docs/images/correct_x.gif?raw=true
+      :alt: GIF
 
 6. **How can I use my newly computed frame? (optional)**
 
    - Once the frame and/or the ellipsoid are displayed, you can select points in the image where you want to compute coordinates in the new frame by clicking "Compute coordinates in the new reference frame".
-    Once clicked, the viewer will go back to 2D view and you will then be prompted to place as many points as desired. Their positions in the new reference frame will be saved in the CSV already containing the frame coordinates
-    and displayed in the terminal. If you choose not to display the ellipsoid or the frame, the next image in the folder will be loaded automatically, and the reference frame parameters will be saved (see the next section).
+     Once clicked, the viewer will go back to 2D view and you will then be prompted to place as many points as desired. Their positions in the new reference frame will be saved in the CSV already containing the frame coordinates
+     and displayed in the terminal. If you choose not to display the ellipsoid or the frame, the next image in the folder will be loaded automatically, and the reference frame parameters will be saved (see the next section).
 
 
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/coords.gif?raw=true

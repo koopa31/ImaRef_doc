@@ -38,8 +38,22 @@ Steps to Generate a Reference Frame
 
    Once all points are placed, click on the "Calculate Coordinates" button to compute the reference frame. To proceed to Step 4, you must display the orthonormal frame and/or the ellipsoid before clicking "Calculate Coordinates" by selecting "Show computed orthonormal axes" and "Show the computed ellipsoid."
 
+4. **Correction of z-vector deviation**
 
-4. **How can I use my newly computed frame? (optional)**
+   - If the dorsal axis is not correctly aligned after ellipsoid fitting, the user can refine it by placing a few points along the dorsal side.
+     A correction is then applied to ensure that z lies in the anteroposterior plane and points dorsally.
+
+     1. Click "Add dorsal points to orient Z-vector". The viewer will switch to 2D view mode.
+     2. Manually place a few points (e.g., 2 or 3) along the anteroposterior axis in the dorsal region of the embryo
+     3. Click "Calculate coordinates" to recompute the frame. The Z-vector should now be properly aligned.
+
+5. **Correction of x orientation**
+
+    - Some microscopes acquire 3D stacks in reverse z-order, which can mirror the sample along the left-right axis — for example, the left placode may appear on the right.
+      This affects the computed X-axis vector and can lead to inconsistent anatomical orientations between datasets. To correct this, check the "Invert X-vector direction" box after computing the coordinate system if you observe a left-right inversion. This applies the transformation x → –x, ensuring consistent anatomical orientation across microscopes.
+
+
+6. **How can I use my newly computed frame? (optional)**
 
    - Once the frame and/or the ellipsoid are displayed, you can select points in the image where you want to compute coordinates in the new frame by clicking "Compute coordinates in the new reference frame".
     Once clicked, the viewer will go back to 2D view and you will then be prompted to place as many points as desired. Their positions in the new reference frame will be saved in the CSV already containing the frame coordinates
@@ -49,7 +63,7 @@ Steps to Generate a Reference Frame
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/coords.gif?raw=true
       :alt: GIF
 
-5. **Save the Results**
+7. **Save the Results**
 
    - The plugin will save the coordinates of the point placed in **4.** (not mandatory) and the reference frame parameters in a CSV file
      named as the corresponding image, in the folder containing the images.

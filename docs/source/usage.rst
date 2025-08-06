@@ -17,6 +17,7 @@ Steps to Generate a Reference Frame
           - **Green channel**: Define the identifier for green channel images (default: `CSU-488 Em 510-540`).
           - **Red channel**: Define the identifier for red channel images (default: `CSU-561 Em 593LP`).
 
+
 2. **Select the Folder Containing Images**
 
    - Open Napari and launch the plugin.
@@ -24,6 +25,7 @@ Steps to Generate a Reference Frame
 
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/select_folder.gif?raw=true
       :alt: GIF
+
 
 3. **Place the Points in the Image**
 
@@ -38,6 +40,7 @@ Steps to Generate a Reference Frame
 
    Once all points are placed, click on the "Calculate Coordinates" button to compute the reference frame. To proceed to Step 4, you must display the orthonormal frame and/or the ellipsoid before clicking "Calculate Coordinates" by selecting "Show computed orthonormal axes" and "Show the computed ellipsoid."
 
+
 4. **Correction of z-vector deviation**
 
    - If the dorsal axis is not correctly aligned after ellipsoid fitting, the user can refine it by placing a few points along the dorsal side.
@@ -46,6 +49,7 @@ Steps to Generate a Reference Frame
      1. Click "Add dorsal points to orient Z-vector". The viewer will switch to 2D view mode.
      2. Manually place a few points (e.g., 2 or 3) along the anteroposterior axis in the dorsal region of the embryo
      3. Click "Calculate coordinates" to recompute the frame. The Z-vector should now be properly aligned.
+
 
 5. **Correction of x orientation**
 
@@ -62,6 +66,7 @@ Steps to Generate a Reference Frame
 
    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/coords.gif?raw=true
       :alt: GIF
+
 
 7. **Save the Results**
 

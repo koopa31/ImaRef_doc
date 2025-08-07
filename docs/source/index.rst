@@ -14,7 +14,7 @@ how to :doc:`install <installation>` the project.
 
    This project is under active development and funded by Julie Batut's team at the Centre for Integrative biology in Toulouse.
 
-.. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/ecran_accueil.png
+.. figure:: https://raw.githubusercontent.com/koopa31/ImaRef_doc/main/docs/images/ecran_accueil.png
     :width: 100 %
 
 Contents

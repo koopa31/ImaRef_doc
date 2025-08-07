@@ -23,7 +23,7 @@ Steps to Generate a Reference Frame
    - Open Napari and launch the plugin.
    - Click on the "Select Folder" button to choose the folder containing your embryo images. Images must be 3D and can be composed of several channels.
 
-   .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/select_folder.gif?raw=true
+   .. figure:: https://raw.githubusercontent.com/koopa31/ImaRef_doc/main/docs/images/select_folder.gif?raw=true
       :alt: GIF
 
 
@@ -35,7 +35,7 @@ Steps to Generate a Reference Frame
      2. One point in the dorsal part of the embryo, which is crucial for properly defining the orientation of the z-vector.
      3. As many points as possible around the telencephalon to fit the ellipsoid. The more the better as robustness improves with an increasing number of points.
      
-   .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/placer_points.gif?raw=true
+   .. figure:: https://raw.githubusercontent.com/koopa31/ImaRef_doc/main/docs/images/placer_points.gif?raw=true
       :alt: GIF
 
    Once all points are placed, click on the "Calculate Coordinates" button to compute the reference frame. To proceed to Step 4, you must display the orthonormal frame and/or the ellipsoid before clicking "Calculate Coordinates" by selecting "Show computed orthonormal axes" and "Show the computed ellipsoid."
@@ -50,7 +50,7 @@ Steps to Generate a Reference Frame
      2. Manually place a few points (e.g., 2 or 3) along the anteroposterior axis in the dorsal region of the embryo
      3. Click "Calculate coordinates" to recompute the frame. The Z-vector should now be properly aligned.
 
-    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/refs/heads/main/docs/images/correct_z.gif?raw=true
+    .. figure:: https://raw.githubusercontent.com/koopa31/ImaRef_doc/refs/heads/main/docs/images/correct_z.gif?raw=true
        :alt: GIF
 
 5. **Correction of x orientation (optional)**
@@ -58,7 +58,7 @@ Steps to Generate a Reference Frame
     - Some microscopes acquire 3D stacks in reverse z-order, which can mirror the sample along the left-right axis — for example, the left placode may appear on the right.
       This affects the computed X-axis vector and can lead to inconsistent anatomical orientations between datasets. To correct this, check the "Invert X-vector direction" box after computing the coordinate system if you observe a left-right inversion. This applies the transformation x → –x, ensuring consistent anatomical orientation across microscopes.
 
-    .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/refs/heads/main/docs/images/correct_x.gif?raw=true
+    .. figure:: https://raw.githubusercontent.com/koopa31/ImaRef_doc/refs/heads/main/docs/images/correct_x.gif?raw=true
       :alt: GIF
 
 6. **How can I use my newly computed frame? (optional)**
@@ -68,7 +68,7 @@ Steps to Generate a Reference Frame
      and displayed in the terminal. If you choose not to display the ellipsoid or the frame, the next image in the folder will be loaded automatically, and the reference frame parameters will be saved (see the next section).
 
 
-   .. figure:: https://raw.githubusercontent.com/koopa31/stereotyping_doc/main/docs/images/coords.gif?raw=true
+   .. figure:: https://raw.githubusercontent.com/koopa31/ImaRef_doc/main/docs/images/coords.gif?raw=true
       :alt: GIF
 
 

@@ -14,6 +14,8 @@ how to :doc:`install <installation>` the project.
 
    This project is under active development and funded by Julie Batut's team at the Centre for Integrative biology in Toulouse.
 
+   If you manage to apply this method to other sample types, we’d love to hear about it! And if you’re considering adapting it to different biological systems but feel that a few modifications might be necessary, don’t hesitate to reach out.
+
 .. figure:: https://raw.githubusercontent.com/koopa31/ImaRef_doc/main/docs/images/ecran_accueil.png
     :width: 100 %
 

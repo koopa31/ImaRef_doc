@@ -1,7 +1,7 @@
-Welcome to Napari Stereotyping's documentation!
+Welcome to Napari ImaRef's documentation!
 ===================================
 
-**Napari Stereotyping** is a Napari plugin dedicated to stereotyping the olfactory system of zebrafish
+**Napari ImaRef** is a Napari plugin dedicated to stereotyping the olfactory system of zebrafish
 embryos imaged in 3D, by creating a reproducible orthonormal reference frame. The method relies on ellipsoid fitting through the manual placement of well-defined points within the embryo. The center and axes of the ellipsoid define an orthonormal reference frame.
 
 The aim of the project is to rapidly create a reference frame in different embryos to get rid of the orientation

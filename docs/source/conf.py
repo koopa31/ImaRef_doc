@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Napari Stereotyping'
-copyright = '2025, Team Batut, CBI, MCD, CNRS'
+project = 'Napari ImaRef'
+copyright = '2025, Team DEMO, CBI, MCD, CNRS'
 author = 'Clément Cazorla'
 
 release = '0.1'

@@ -1,4 +1,5 @@
 # Configuration file for the Sphinx documentation builder.
+from bs4.dammit import html_meta
 
 # -- Project information
 
@@ -32,6 +33,9 @@ templates_path = ['_templates']
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = 'logo/logo.png'
+html_meta = {
+    "google-site-verification": "5aNqxm9yMN79AwTkkEEZkCxJYr5HGtHYC6aKQNaOVao"
+}
 html_theme_options = {
     'logo_only': True,
     'display_version': False,

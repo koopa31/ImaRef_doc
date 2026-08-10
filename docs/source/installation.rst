@@ -12,11 +12,13 @@ Then install Napari and the plugin:
 
 .. code-block:: console
 
-   pip install "napari[all]"
+   pip install "napari[all]"==0.6.6
+
+Careful, Napari versions after 0.6.6 are not compatible with the plugin.
 
 .. code-block:: console
 
-   pip install napari-stereotyping
+   pip install napari-imaref
 
 Creating a Launcher
 ====================

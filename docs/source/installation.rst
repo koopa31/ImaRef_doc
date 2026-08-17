@@ -40,11 +40,11 @@ To create a launcher on Linux, follow these steps:
 
 1. **Create a `.desktop` File**:
 
-   Navigate to the directory where you want to create the launcher and create a `.desktop` file (e.g., `napari_stereotyping.desktop`).
+   Navigate to the directory where you want to create the launcher and create a `.desktop` file (e.g., `napari-imaref.desktop`).
 
    .. code-block:: bash
 
-      touch ~/Desktop/napari_stereotyping.desktop
+      touch ~/Desktop/napari-imaref.desktop
 
 2. **Edit the `.desktop` File**:
 
@@ -55,11 +55,11 @@ To create a launcher on Linux, follow these steps:
       [Desktop Entry]
       Version=1.0
       Type=Application
-      Name=Napari Stereotyping
-      Exec=gnome-terminal -- bash -c "source ~/.bashrc && mamba activate <your_conda_environment> && napari --with napari_stereotypage; exec bash"
+      Name=Napari ImaRef
+      Exec=gnome-terminal -- bash -c "source ~/.bashrc && mamba activate <your_conda_environment> && napari --with napari-imaref; exec bash"
       Icon=/path/to/your/icon/Image_accueil.png
       Terminal=true
-      Comment=Launch Napari with the Stereotyping plugin
+      Comment=Launch Napari with the ImaRef plugin
       Categories=Science;Graphics;
 
    Replace `<your_conda_environment>` with the name of your Conda environment, and `/path/to/your/icon/` with the path where your icon is stored.
@@ -70,7 +70,7 @@ To create a launcher on Linux, follow these steps:
 
    .. code-block:: bash
 
-      chmod +x ~/Desktop/napari_stereotyping.desktop
+      chmod +x ~/Desktop/napari-imaref.desktop
 
 4. **Move to Applications** (optional):
 
@@ -78,7 +78,7 @@ To create a launcher on Linux, follow these steps:
 
    .. code-block:: bash
 
-      mv ~/Desktop/napari_stereotyping.desktop ~/.local/share/applications/
+      mv ~/Desktop/napari-imaref.desktop ~/.local/share/applications/
 
 macOS
 -----
@@ -94,13 +94,13 @@ To create a launcher on macOS:
 
    .. code-block:: bash
 
-      /path/to/conda/envs/napari_stereotyping/bin/napari --with napari_stereotypage
+      /path/to/conda/envs/napari-sterreotyping/bin/napari --with napari-imaref
 
    Replace `/path/to/conda/envs/napari_stereotyping/bin/napari` with the path to your Napari installation.
 
 2. **Save the Application**:
 
-   - Save the Automator application with a name like "Napari Stereotyping" in your Applications folder.
+   - Save the Automator application with a name like "Napari ImaRef" in your Applications folder.
    - You can now launch Napari Stereotyping directly from the Applications folder.
 
 Windows
@@ -115,9 +115,9 @@ To create a shortcut on Windows:
 
    .. code-block:: text
 
-      C:\Users\YourUsername\Miniconda3\envs\napari_stereotyping\Scripts\napari.exe --with napari_stereotypage
+      C:\Users\YourUsername\Miniconda3\envs\napari_stereotyping\Scripts\napari.exe --with napari-imaref
 
-   - Click "Next" and give your shortcut a name, like "Napari Stereotyping."
+   - Click "Next" and give your shortcut a name, like "Napari ImaRef."
 
 2. **Set an Icon** (optional):
 

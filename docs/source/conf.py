@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Napari ImaRef'
-copyright = '2025, Team DEMO, CBI, MCD, CNRS'
+copyright = '2026, Team DEMO, CBI, MCD, CNRS, Université de Toulouse'
 author = 'Clément Cazorla'
 
 release = '0.1'

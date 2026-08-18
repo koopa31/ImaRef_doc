@@ -40,6 +40,7 @@ html_theme_options = {
     'logo_only': True,
     'display_version': False,
 } 
+html_extra_path=["googleb72f83511791a7fa.html",]
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
